@@ -15,8 +15,8 @@
         </header>
         <section>
             <?php
-                require_once __DIR__ . '/conexao.php';
-                require_once __DIR__ . '/pessoa.php';
+                require_once 'conexao.php';
+                require_once 'pessoa.php';
 
                 $mensagem = '';
                 $cadastroSucesso = false;
